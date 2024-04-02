@@ -1,0 +1,23 @@
+body
+{
+    font-family: "Prompt", sans-serif;
+}
+h1 
+{
+    font-family: 'Bebas Neue', sans-serif;
+    width: fit-content;
+}
+.form-control:focus ,
+.form-select:focus
+{
+    box-shadow: none;
+    border-color: darkcyan !important;
+}
+.fa-trash-can:hover
+{
+    animation: fa-shake 2s 1 linear;
+}
+.product-img{
+    height: 150px;
+    overflow: hidden;
+}
